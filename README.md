@@ -31,22 +31,22 @@ Se incluye un botón de compra que simula el proceso compra.
 En ésta screen se incluye un formulario para la realización de consultas.
 
 Para la construcción de este sitio web se crearon otros 7 componentes:
-1- Main.jsx: Componente principal del sitio.
-2- App.jsx: Incluye el navegador y las rutas de las distintas screens.
-3- ContextProvider.jsx: Componente donde se incluyen los estados de las distintas variables y las principales funciones que involucran a éstos.
-4- ProductCard.jsx: Tarjetas de los distintos productos en venta.
-5- ProductCartCard.jsx: Tarjetas de los distintos productos para el carrito de compras.
-6- Counter.jsx: Contadores de las tarjetas del carrito. 
-7- Footter.jsx: Footers de todas las screens.
+* Main.jsx: Componente principal del sitio.
+* App.jsx: Incluye el navegador y las rutas de las distintas screens.
+* ContextProvider.jsx: Componente donde se incluyen los estados de las distintas variables y las principales funciones que involucran a éstos.
+* ProductCard.jsx: Tarjetas de los distintos productos en venta.
+* ProductCartCard.jsx: Tarjetas de los distintos productos para el carrito de compras.
+* Counter.jsx: Contadores de las tarjetas del carrito. 
+* Footter.jsx: Footers de todas las screens.
 
 Los estilos se desarrollan en su totalidad en los siguientes archivos CSS:
--App.css
--ProductCartCard.css
--ProductCard.css
--Counter.css
--Footer.css
+* App.css
+* ProductCartCard.css
+* ProductCard.css
+* Counter.css
+* Footer.css
 y desde aquellos correspondientes a las screens:
--HomePage.css
--DetailPage.css
--ContactPage.css
--CartPage.css
+* HomePage.css
+* DetailPage.css
+* ContactPage.css
+* CartPage.css
