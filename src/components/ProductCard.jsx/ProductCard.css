@@ -1,0 +1,40 @@
+.Card{
+width: 22rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: rgb(255, 255, 255);
+border-radius: 6px ;
+gap: 1rem;
+
+margin: 0 auto;
+box-shadow: 0px 5px 24px 0px rgba(117, 120, 139, 0.1);
+text-decoration: none;
+}
+
+.CardImg{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+.linkDetail{
+    text-decoration: none;
+    color: grey;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+.Card h2{
+    color: #6B7A99;
+}
+
+.Card h3{
+    color: #5d626b;
+}
+
+.Card:hover{
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.98);
+    cursor:pointer;
+  }
+  

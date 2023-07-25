@@ -1,0 +1,60 @@
+.cardCarts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0.5rem;
+    gap: 2rem;
+    width: 100%;
+}
+
+.bodyWithElements{
+display: flex;
+flex-direction: column;
+background-color: #EDEFF2;
+align-items: center;
+}
+
+.total{
+margin: 4rem;
+color: var(--gray-blue-grey-blue-50, #4D5E80);
+text-align: center;
+font-size: 2.5rem;
+font-weight: 500;
+}
+
+.bodyCart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EDEFF2;
+    padding: 3rem;
+}
+.bodyCart .alerta{
+    margin-bottom: 1rem;
+    font-size: 3rem;        
+} 
+.centerText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #4D5E80;
+    margin-top: 14rem;
+    margin-bottom: 14rem;
+}
+
+.endBuy{
+    background-color: #EDEFF2;
+    display: flex;
+    justify-content: center;
+    
+}
+.endButton{
+    font-size: 1.5rem;
+    width: 20rem;
+    height: 4rem;
+}
+
+.endButton:hover{
+    transform: scale(1.2);
+    cursor:pointer;
+  }

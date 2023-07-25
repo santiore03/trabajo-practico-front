@@ -1,0 +1,104 @@
+.ContactContainer {
+    margin: 0 auto;
+    padding: 3.75rem;
+    background-color: #edeff2;
+    font-family: Poppins;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ContactCard {
+    display: flex;
+    width: 52%;
+    flex-direction: column;
+    border-color: 2px solid black;
+    gap: 1rem;
+    padding: 3.75rem;
+    margin: 4rem;
+    border-radius: 1rem;
+    background: var(--grey-white, #fff);
+    box-shadow: 0px 5px 24px 0px rgba(117, 120, 139, 0.1);
+}
+
+.title {
+    color: var(--grey-dark, #586870);
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 1.2rem */
+    margin-bottom: 2rem;
+}
+
+form {
+    color: var(--grey-normal, #586870);
+    font-family: Poppins;
+    font-size: 1.3rem;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.25rem;
+}
+
+.lineInput {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+}
+
+.textInput {
+    height: 8rem;
+}
+
+input {
+    border-radius: 0.5rem;
+    border: 0.5px solid var(--grey-light, #c0c6c9);
+    padding: 0.4rem;
+}
+
+
+input:hover{
+  border: 0.5px solid #4a55a2;;
+}
+.buttonAlign {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+button {
+    width: 13rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    background: #4a55a2;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    box-shadow: 0px 5px 24px 0px rgba(117, 120, 139, 0.1);
+}
+button:hover{
+  transform: scale(1.2);
+  cursor:pointer;
+}
+
+@media (min-width: 800px) {
+    .ContactCard{
+      width: 65%;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .ContactCard{
+      width: 80%;
+    }
+  }
+  @media (max-width: 700px) {
+    .ContactCard{
+      width: 95%;
+    }
+  }

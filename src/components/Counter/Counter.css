@@ -1,0 +1,53 @@
+.Counters{
+display: flex;
+width: 5.75rem;
+
+justify-content: center;
+align-items: center;
+gap: 0.5rem;
+padding-top: 2rem;
+padding-bottom: 1rem;
+margin: 0 auto;
+}
+
+.quantityButton{
+background-color: white;
+color: #4D5E80;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Roboto;
+font-size: 1.8rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.buttonOp
+{   color: grey;
+    border-radius: 7rem;
+    border: 0.5px solid #C4C4C4;
+    background-color: #FFF;
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-shrink: 0;}
+
+.buttonOp:hover{
+    transform: scale(1.2);
+    background-color: #4D5E80;
+    cursor:pointer;
+    color: white;
+}    
+    
+    .centerButton{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .buttonConfirme:hover{
+        transform: scale(1.2);
+        cursor:pointer;
+      }
