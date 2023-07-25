@@ -4,9 +4,10 @@ import circle from './assets/Ellipse.png'
 import { ContactPage,CartPage,DetailPage, HomePage } from './screens';
 import { NavLink,Route,Routes } from 'react-router-dom';
 import { Footer } from './components';
-import {searchImage} from './assets/search.png'
-import {heroIcon} from './assets/heroicons.png'
-import {shop} from './assets/shopping.png'
+
+import searchImage from './assets/search.png'
+import heroIcon from './assets/heroicons.png'
+import shop from './assets/shopping.png'
 
 const App = () => {
 
