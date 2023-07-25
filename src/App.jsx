@@ -1,5 +1,5 @@
 import React from 'react'
-import "./App.css";
+import "./App.css"
 import circle from './assets/Ellipse.png'
 import { ContactPage,CartPage,DetailPage, HomePage } from './screens';
 import { NavLink,Route,Routes } from 'react-router-dom';
@@ -24,8 +24,8 @@ const App = () => {
           </div>
           <div className='Naveg'>
             <NavLink to='/contact' className='NavBoton'>Contact</NavLink>
-            <NavLink to='/' className='NavBoton'><img  className='imgBotonNav' src="../src/assets/heroicons_home-20-solid.png"/></NavLink>
-            <NavLink to='/cart' className='NavBoton'><img className='imgBotonNav' src="../src/assets/shopping_cart.png"/></NavLink>
+            <NavLink to='/' className='NavBoton'><img  className='imgBotonNav' src="../src/assets/heroicons.png"/></NavLink>
+            <NavLink to='/cart' className='NavBoton'><img className='imgBotonNav' src="../src/assets/shopping.png"/></NavLink>
           </div>
         </nav>
 
