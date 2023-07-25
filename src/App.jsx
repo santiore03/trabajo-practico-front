@@ -4,6 +4,9 @@ import circle from './assets/Ellipse.png'
 import { ContactPage,CartPage,DetailPage, HomePage } from './screens';
 import { NavLink,Route,Routes } from 'react-router-dom';
 import { Footer } from './components';
+import {searchImage} from './assets/search.png'
+import {heroIcon} from './assets/heroicons.png'
+import {shop} from './assets/shopping.png'
 
 const App = () => {
 
@@ -19,13 +22,13 @@ const App = () => {
           <div>
             <div className='Search'>
               <input type="text" placeholder='Search' className='inputSearch'/>
-              <img src="../src/assets/search.png"/>
+              <img src={searchImage}/>
             </div>
           </div>
           <div className='Naveg'>
             <NavLink to='/contact' className='NavBoton'>Contact</NavLink>
-            <NavLink to='/' className='NavBoton'><img  className='imgBotonNav' src="../src/assets/heroicons.png"/></NavLink>
-            <NavLink to='/cart' className='NavBoton'><img className='imgBotonNav' src="../src/assets/shopping.png"/></NavLink>
+            <NavLink to='/' className='NavBoton'><img  className='imgBotonNav' src={heroIcon}/></NavLink>
+            <NavLink to='/cart' className='NavBoton'><img className='imgBotonNav' src={shop}/></NavLink>
           </div>
         </nav>
 
