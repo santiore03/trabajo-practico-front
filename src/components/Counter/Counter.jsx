@@ -39,11 +39,6 @@ const Counter = ({ initialValue, stock, id }) => {
         <button className="buttonConfirme" onClick={onClickAddProduct}>
           Add to cart
         </button>
-        {/*             <button onClick={() => {
-                addProductCart(id, quantity)
-                alert('se añadio correctamente al carrito')
-            }}>Confirmar</button>
- */}
       </div>
     </>
   );

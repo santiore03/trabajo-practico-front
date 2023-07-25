@@ -1,70 +1,73 @@
-.Foot{
-    display: flex;
-    flex-direction: row;
-    padding: 3.75rem 5rem 3rem 5rem;
-    justify-content: space-between;
-    background-color:#EDEFF2;
-    font-size: 1.1rem;
-  }
+.Foot {
+  display: flex;
+  flex-direction: row;
+  padding: 3.75rem 5rem 3rem 5rem;
+  justify-content: space-between;
+  background-color: #edeff2;
+  font-size: 1.1rem;
+}
 
-  .column1Foot h2{
-    height: 4rem;
-    color: #4D5E80;
-  }
-  .Foot p{
-    padding: 0.4rem;
-    color: #6B7A99;
-  }
-  
-  .column1Foot p{
-    color:#ADB8CC;
-  }
-  
-  .columnEndFoot p{
-    color:#ADB8CC;
-  }
+.column1Foot h2 {
+  height: 4rem;
+  color: #4d5e80;
+}
+.Foot p {
+  padding: 0.4rem;
+  color: #6b7a99;
+}
 
-.FootCel{
+.column1Foot p {
+  color: #adb8cc;
+}
+
+.columnEndFoot p {
+  color: #adb8cc;
+}
+
+.FootCel {
   display: none;
 }
 
-.Foot:hover{
-  cursor:pointer;
+.Foot:hover {
+  cursor: pointer;
 }
 
-
-  @media (max-width: 450px) {
-    .Foot{
+@media (max-width: 450px) {
+  .Foot {
     display: none;
-    }
-    .FootCel{
-      display:flex;
-      flex-direction: column;
-      padding: 4rem 8rem 4rem 8rem;
-      background-color:#EDEFF2;
-      font-size: 1.1rem;
-      gap: 2rem;
-    }
-    .c1{width: 50%;}
-    .c2{width: 50%;}
-    .FootCel .column1Foot{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      color: #4D5E80;
-    }
-      .secondRow{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        color: #4D5E80;
-      }
+  }
+  .FootCel {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 5.625rem 4rem 5.625rem;
+    background-color: #edeff2;
+    font-size: 1.1rem;
+    gap: 2rem;
+  }
+  .c1 {
+    width: 50%;
+  }
+  .c2 {
+    width: 50%;
+  }
+  .FootCel .column1Foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #4d5e80;
+  }
+  .secondRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #4d5e80;
+  }
 
-      .lastRow{
-        display: flex;
-        flex-direction: column;
-        align-items: left;
-        color: #ADB8CC;
-        font-size: 1rem;
-      }
-    }
+  .lastRow {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    color: #adb8cc;
+    font-size: 1rem;
+  }
+}
