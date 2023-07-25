@@ -1,4 +1,4 @@
-# trabajo-practico-front
+# trabajo práctico front end
 UTN-Diplomatura full stack
 
 En este proyecto se presenta una página web correspondiente a un e-commerce. 
