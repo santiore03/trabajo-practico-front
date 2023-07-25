@@ -19,15 +19,15 @@ En ésta screen pueden observarse:
 - Los productos en venta, a cuyos detalles se accede presionando en "See Details".
 - Dos filtradores, que permiten filtrar productos tanto por su nombre como por el rango de precio.
 
-*DetailPage:
+* DetailPage:
 En ésta screen pueden observarse los detalles del producto seleccionado, permitiéndole al usuario seleccionar la cantidad de un producto a comprar 
 y la opción de agregarlo al carrito de compras. 
 
-*CartPage:
+* CartPage:
 En ésta screen se muestran los productos agregados al carrito y la cantidad de cada uno, junto con la la costo total que representan.
 Se incluye un botón de compra que simula el proceso compra.
 
-*ContactPage:
+* ContactPage:
 En ésta screen se incluye un formulario para la realización de consultas.
 
 Para la construcción de este sitio web se crearon otros 7 componentes:
