@@ -1,5 +1,5 @@
 import React from 'react'
-import "./app.css";
+import "./App.css";
 import circle from './assets/Ellipse.png'
 import { ContactPage,CartPage,DetailPage, HomePage } from './screens';
 import { NavLink,Route,Routes } from 'react-router-dom';
