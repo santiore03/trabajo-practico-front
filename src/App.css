@@ -114,7 +114,7 @@ width: 30rem;
 @media (max-width: 800px) {
 
   html{
-    font-size: 8px;
+    font-size: 10px;
   }
   .Search{
     display: none;

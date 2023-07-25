@@ -29,10 +29,15 @@ font-weight: 500;
     background-color: #EDEFF2;
     padding: 3rem;
 }
+.centerText p{
+    font-size: 1.5rem;
+    text-align: center;
+}
 .bodyCart .alerta{
     margin-bottom: 1rem;
-    font-size: 3rem;        
-} 
+    font-size: 3rem; 
+    text-align: center;} 
+
 .centerText{
     display: flex;
     flex-direction: column;

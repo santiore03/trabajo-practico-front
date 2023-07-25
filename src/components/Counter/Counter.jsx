@@ -37,7 +37,7 @@ const Counter = ({ initialValue, stock, id }) => {
 
       <div className="centerButton">
         <button className="buttonConfirme" onClick={onClickAddProduct}>
-          Add to chart
+          Add to cart
         </button>
         {/*             <button onClick={() => {
                 addProductCart(id, quantity)
